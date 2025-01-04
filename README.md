@@ -2,7 +2,7 @@ This repository contains the `Dockerfile` to compile [Zola](https://github.com/g
 
 Taken from its repository description, Zola is a fast [static site generator](https://en.wikipedia.org/wiki/Static_site_generator) in a single binary with everything built-in.
 
-To build the container image, it is necessary to run the following command.
+The container image is available on [Docker Hub](https://hub.docker.com/r/tandiljuan/zola). However, if you want to build it, you need to run the following command.
 
 ```bash
 export RUST_VERSION="1.79" && \
